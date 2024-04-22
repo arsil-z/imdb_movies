@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  imdb_movies_app:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "5050:5050"
+    volumes:
+      - .:/app
+    depends_on:
+      - imdb_movies_db
+      - gcp_storage_emulator
+      - gcloud_tasks_emulator
+    networks:
+      imdb_movies:
+        ipv4_address: 10.10.0.190
+
+  imdb_movies_db:
+    image: mongo:latest
+    hostname: imdb_movies_db
+    environment:
+      - MONGO_INITDB_DATABASE=imdb_movies
+      - MONGO_INITDB_ROOT_USERNAME=imdb_movies_user
+      - MONGO_INITDB_ROOT_PASSWORD=imdb_movies_password
+    volumes:
+      - ./.docker-volumes/init-db.js:/docker-entrypoint-initdb.d/init-db.js:ro
+    ports:
+      - "27017:27017"
+    networks:
+      imdb_movies:
+
+  gcp_storage_emulator:
+    image: oittaa/gcp-storage-emulator:latest
+    hostname: gcp_storage_emulator
+    volumes:
+      - ./.docker-volumes/gcp-storage:/storage
+    ports:
+      - "8080:8080"
+    networks:
+      imdb_movies:
+        ipv4_address: 10.10.0.191
+
+  gcloud_tasks_emulator:
+    build:
+      context: .
+      dockerfile: ./gcloud-tasks-emulator.dockerfile
+    ports:
+        - "8123:8123"
+    networks:
+      imdb_movies:
+
+networks:
+  imdb_movies:
+    external: true

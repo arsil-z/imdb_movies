@@ -1,0 +1,1094 @@
+{
+  "files": {
+    "indexes": [
+      "_id",
+      "user_id"
+    ],
+    "schema": {
+      "count": 1,
+      "fields": [
+        {
+          "name": "_id",
+          "path": [
+            "_id"
+          ],
+          "count": 1,
+          "type": "ObjectId",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "ObjectId",
+              "path": [
+                "_id"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "ObjectId"
+            }
+          ]
+        },
+        {
+          "name": "blob_id",
+          "path": [
+            "blob_id"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "blob_id"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "created_at",
+          "path": [
+            "created_at"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "created_at"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "name",
+          "path": [
+            "name"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "name"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "progress",
+          "path": [
+            "progress"
+          ],
+          "count": 1,
+          "type": "Int32",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "Int32",
+              "path": [
+                "progress"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "Int32"
+            }
+          ]
+        },
+        {
+          "name": "remarks",
+          "path": [
+            "remarks"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "remarks"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "status",
+          "path": [
+            "status"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "status"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "total_rows",
+          "path": [
+            "total_rows"
+          ],
+          "count": 1,
+          "type": "Int32",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "Int32",
+              "path": [
+                "total_rows"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "Int32"
+            }
+          ]
+        },
+        {
+          "name": "updated_at",
+          "path": [
+            "updated_at"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "updated_at"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "user_id",
+          "path": [
+            "user_id"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "user_id"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "jobs": {
+    "indexes": [
+      "_id",
+      "file_id"
+    ],
+    "schema": {
+      "count": 11,
+      "fields": [
+        {
+          "name": "_id",
+          "path": [
+            "_id"
+          ],
+          "count": 11,
+          "type": "ObjectId",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "ObjectId",
+              "path": [
+                "_id"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 11,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "ObjectId"
+            }
+          ]
+        },
+        {
+          "name": "created_at",
+          "path": [
+            "created_at"
+          ],
+          "count": 11,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "created_at"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 11,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "end_row",
+          "path": [
+            "end_row"
+          ],
+          "count": 11,
+          "type": "Int32",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "Int32",
+              "path": [
+                "end_row"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 11,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "Int32"
+            }
+          ]
+        },
+        {
+          "name": "file_id",
+          "path": [
+            "file_id"
+          ],
+          "count": 11,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "file_id"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "percent_work_done",
+          "path": [
+            "percent_work_done"
+          ],
+          "count": 11,
+          "type": "Double",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "Double",
+              "path": [
+                "percent_work_done"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "Double"
+            }
+          ]
+        },
+        {
+          "name": "remarks",
+          "path": [
+            "remarks"
+          ],
+          "count": 11,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "remarks"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "start_row",
+          "path": [
+            "start_row"
+          ],
+          "count": 11,
+          "type": "Int32",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "Int32",
+              "path": [
+                "start_row"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 11,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "Int32"
+            }
+          ]
+        },
+        {
+          "name": "status",
+          "path": [
+            "status"
+          ],
+          "count": 11,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "status"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "updated_at",
+          "path": [
+            "updated_at"
+          ],
+          "count": 11,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "updated_at"
+              ],
+              "count": 11,
+              "probability": 1,
+              "unique": 11,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "users": {
+    "indexes": [
+      "_id",
+      "email"
+    ],
+    "schema": {
+      "count": 1,
+      "fields": [
+        {
+          "name": "_id",
+          "path": [
+            "_id"
+          ],
+          "count": 1,
+          "type": "ObjectId",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "ObjectId",
+              "path": [
+                "_id"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "ObjectId"
+            }
+          ]
+        },
+        {
+          "name": "active",
+          "path": [
+            "active"
+          ],
+          "count": 1,
+          "type": "Boolean",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "Boolean",
+              "path": [
+                "active"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "Boolean"
+            }
+          ]
+        },
+        {
+          "name": "created_at",
+          "path": [
+            "created_at"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "created_at"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "email",
+          "path": [
+            "email"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "email"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "password",
+          "path": [
+            "password"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "password"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "updated_at",
+          "path": [
+            "updated_at"
+          ],
+          "count": 1,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "updated_at"
+              ],
+              "count": 1,
+              "probability": 1,
+              "unique": 1,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "shows": {
+    "indexes": [
+      "_id",
+      "release_year",
+      "file_duration"
+    ],
+    "schema": {
+      "count": 260,
+      "fields": [
+        {
+          "name": "_id",
+          "path": [
+            "_id"
+          ],
+          "count": 260,
+          "type": "ObjectId",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "ObjectId",
+              "path": [
+                "_id"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 260,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "ObjectId"
+            }
+          ]
+        },
+        {
+          "name": "cast",
+          "path": [
+            "cast"
+          ],
+          "count": 260,
+          "type": "Array",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "Array",
+              "path": [
+                "cast"
+              ],
+              "count": 260,
+              "probability": 1,
+              "bsonType": "Array",
+              "types": [
+                {
+                  "name": "String",
+                  "path": [
+                    "cast"
+                  ],
+                  "count": 1840,
+                  "probability": 1,
+                  "unique": 85,
+                  "hasDuplicates": true,
+                  "values": [],
+                  "bsonType": "String"
+                }
+              ],
+              "totalCount": 1840,
+              "averageLength": 7.076923076923077
+            }
+          ]
+        },
+        {
+          "name": "country",
+          "path": [
+            "country"
+          ],
+          "count": 260,
+          "type": "Array",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "Array",
+              "path": [
+                "country"
+              ],
+              "count": 260,
+              "probability": 1,
+              "bsonType": "Array",
+              "types": [
+                {
+                  "name": "String",
+                  "path": [
+                    "country"
+                  ],
+                  "count": 315,
+                  "probability": 1,
+                  "unique": 15,
+                  "hasDuplicates": true,
+                  "values": [],
+                  "bsonType": "String"
+                }
+              ],
+              "totalCount": 315,
+              "averageLength": 1.2115384615384615
+            }
+          ]
+        },
+        {
+          "name": "created_at",
+          "path": [
+            "created_at"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "created_at"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 100,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "date_added",
+          "path": [
+            "date_added"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "date_added"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 11,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "description",
+          "path": [
+            "description"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "description"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 45,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "director",
+          "path": [
+            "director"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "director"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 27,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "duration",
+          "path": [
+            "duration"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "duration"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 29,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "file_duration",
+          "path": [
+            "file_duration"
+          ],
+          "count": 260,
+          "type": "Int32",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "Int32",
+              "path": [
+                "file_duration"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 29,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "Int32"
+            }
+          ]
+        },
+        {
+          "name": "job_id",
+          "path": [
+            "job_id"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "job_id"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 11,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "listed_in",
+          "path": [
+            "listed_in"
+          ],
+          "count": 260,
+          "type": "Array",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "Array",
+              "path": [
+                "listed_in"
+              ],
+              "count": 260,
+              "probability": 1,
+              "bsonType": "Array",
+              "types": [
+                {
+                  "name": "String",
+                  "path": [
+                    "listed_in"
+                  ],
+                  "count": 600,
+                  "probability": 1,
+                  "unique": 22,
+                  "hasDuplicates": true,
+                  "values": [],
+                  "bsonType": "String"
+                }
+              ],
+              "totalCount": 600,
+              "averageLength": 2.3076923076923075
+            }
+          ]
+        },
+        {
+          "name": "rating",
+          "path": [
+            "rating"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "rating"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 8,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "release_year",
+          "path": [
+            "release_year"
+          ],
+          "count": 260,
+          "type": "Int32",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "Int32",
+              "path": [
+                "release_year"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 17,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "Int32"
+            }
+          ]
+        },
+        {
+          "name": "show_id",
+          "path": [
+            "show_id"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "show_id"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 47,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "title",
+          "path": [
+            "title"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "title"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 47,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "type",
+          "path": [
+            "type"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": true,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "type"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 2,
+              "hasDuplicates": true,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        },
+        {
+          "name": "updated_at",
+          "path": [
+            "updated_at"
+          ],
+          "count": 260,
+          "type": "String",
+          "probability": 1,
+          "hasDuplicates": false,
+          "types": [
+            {
+              "name": "String",
+              "path": [
+                "updated_at"
+              ],
+              "count": 260,
+              "probability": 1,
+              "unique": 100,
+              "hasDuplicates": false,
+              "values": [],
+              "bsonType": "String"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
